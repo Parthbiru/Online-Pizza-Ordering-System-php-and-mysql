@@ -1,0 +1,24 @@
+login_user database
+
+
+
+
+
+
+pizza order database
+
+CREATE TABLE `orders` (
+    `id` INT(11) AUTO_INCREMENT PRIMARY KEY,
+    `pizza_name` VARCHAR(255) NOT NULL,
+    `quantity` INT(11) NOT NULL,
+    `price` DECIMAL(10, 2) NOT NULL,
+    `order_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+chatgpt chats
+order chat - https://chatgpt.com/share/66fc2485-8aec-800a-9bc7-4d394c457763
+
+https://chatgpt.com/share/66f98125-e5d8-800a-86c8-42d04532cf8d
+
+
